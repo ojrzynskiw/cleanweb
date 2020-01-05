@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css" />
+    <title>CleanWeb</title>
+</head>
+<body>
+<h3>Welcome <span th:text="${username}"/></h3>
+    <ul>
+        <li th:each="person : ${persons}">
+            <span th:text="${person.name}"/>
+            (<span th:text="${person.age}"/>)
+        </li>
+    </ul>
+</body>
+</html>

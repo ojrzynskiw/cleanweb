@@ -1,4 +1,4 @@
-package pl.axolotl.cleanweb.config.services.user;
+package pl.axolotl.cleanweb.services.currentuser;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
